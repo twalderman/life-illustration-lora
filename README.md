@@ -32,7 +32,7 @@ ZImageCLI \
 |-----|-----------------|--------------|-------|
 | **AIbstraction Studio** | Yes | Yes | **Purpose-built** for Life Design assets (coming soon) |
 | **[Draw Things](https://drawthings.ai)** | Yes | Yes | Native Mac app, easy to use |
-| **[Diffusion Bee](https://diffusionbee.com)** | Limited | Yes | Good for beginners |
+| **[MindCraft Studio](https://themindstudio.cc/mindcraft)** | Yes | Yes | Based on mflux, Apple Silicon optimized |
 | **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)** | Yes | Yes | Most flexible, requires setup |
 | **[ZImageCLI](https://github.com/twalderman/ZImageCLI)** | Yes | Yes | Command-line tool |
 
