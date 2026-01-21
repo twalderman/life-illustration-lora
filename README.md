@@ -49,12 +49,14 @@ A custom Mac application purpose-built for creating Life Design assets with this
 [MindCraft Studio](https://themindstudio.cc/mindcraft) is a professional AI image generation app for Mac built on mflux/MLX. Runs entirely local—no subscription, no cloud, full privacy.
 
 1. Download MindCraft Studio from the website
-2. Load Z-Image-Turbo model (MFLUX/MLX format)
-3. Add the LoRA via the LoRA adapters panel
+2. Load Z-Image-Turbo model
+3. Add this LoRA via the LoRA adapters panel
 4. Set LoRA scale to **1.0**
 5. Use `life_illustration` as trigger word in your prompts
 
 **Features**: LoRA support, ControlNet (Canny), image-to-image, Metal-accelerated on Apple Silicon.
+
+> **Note**: This LoRA is trained for Z-Image-Turbo. A FLUX Schnell version is planned for future release.
 
 ---
 
