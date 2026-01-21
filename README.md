@@ -177,7 +177,7 @@ Trained using [AI-Toolkit](https://github.com/ostris/ai-toolkit) on RunPod (A40 
 
 This LoRA is released for **personal and educational use**.
 
-The Life Illustration style is based on Laerdal Medical's design system. This LoRA is an independent fan creation and is not officially affiliated with or endorsed by Laerdal Medical.
+The Life Illustration style is based on Laerdal Medical's Life Illustration style guide (private). This LoRA is an independent fan creation and is not officially affiliated with or endorsed by Laerdal Medical.
 
 ---
 
@@ -192,6 +192,6 @@ The Life Illustration style is based on Laerdal Medical's design system. This Lo
 
 ## Acknowledgments
 
-- [Laerdal Medical](https://laerdal.com) for the Life Illustration design system
+- [Laerdal Medical](https://laerdal.com) for the Life Illustration style guide (private)
 - [ostris](https://github.com/ostris) for AI-Toolkit and the Z-Image training adapter
 - [Tongyi-MAI](https://huggingface.co/Tongyi-MAI) for Z-Image-Turbo
