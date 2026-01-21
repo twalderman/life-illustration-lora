@@ -92,53 +92,6 @@ life_illustration, office workers in meeting room
 
 ---
 
-## The Life Illustration Style
-
-**Source**: [Laerdal Life Illustration Library](https://www.figma.com/design/aKqGUBjSWByWm6LN2nBZdr/Ext.-Life-Illustration-Lib.-v2.2.0) (Figma)
-
-Life Illustration is a distinctive visual style created by [Laerdal Medical](https://laerdal.com) for healthcare training materials.
-
-### Style Characteristics
-
-| Element | Description |
-|---------|-------------|
-| **Art Style** | Flat vector illustration, no gradients |
-| **Faces** | Blank/featureless (no eyes, nose, or mouth) |
-| **Shapes** | Soft, rounded corners throughout |
-| **Shading** | Two-tone only (base color + shadow) |
-| **Context** | Medical, healthcare, training scenarios |
-| **Palette** | Warm, muted colors on cream backgrounds |
-
-### Why Faceless?
-
-The faceless character design is intentional—it allows viewers to project themselves into training scenarios without being distracted by specific facial expressions or identities. This makes the illustrations universally relatable across cultures and demographics.
-
-### Color Palette
-
-**Primary Colors**
-| Name | Hex | Usage |
-|------|-----|-------|
-| Cream Background | `#FCFCFC` | Main backgrounds |
-| Teal Scrubs | `#25837E` | Healthcare uniforms |
-| Navy | `#163746` | Accents, dark elements |
-
-**Skin Tones** (Diverse Range)
-| Tone | Hex |
-|------|-----|
-| Light | `#F6E4C8` `#F5E0CD` `#F0D0B4` |
-| Medium | `#CEA28B` `#CF9E76` `#C08D62` |
-| Dark | `#936E4D` `#714E37` `#523F31` |
-
-**Clothing**
-| Type | Hex |
-|------|-----|
-| Teal Scrubs | `#25837E` |
-| Burgundy | `#7A3658` |
-| Blue | `#5062A5` |
-| Khaki | `#D6AD61` |
-
----
-
 ## Training Details
 
 | Parameter | Value |
