@@ -44,13 +44,17 @@ A custom Mac application purpose-built for creating Life Design assets with this
 
 *Coming soon*
 
-### Alternative: Draw Things
+### Alternative: MindCraft Studio
 
-1. Download [Draw Things](https://apps.apple.com/app/draw-things-ai-generation/id6444050820) from the App Store
-2. Go to **Settings > Models** and download Z-Image-Turbo
-3. Load the LoRA file via **Settings > LoRAs**
-4. Set LoRA scale to **0.8**
+[MindCraft Studio](https://themindstudio.cc/mindcraft) is a professional AI image generation app for Mac built on mflux/MLX. Runs entirely local—no subscription, no cloud, full privacy.
+
+1. Download MindCraft Studio from the website
+2. Load Z-Image-Turbo model (MFLUX/MLX format)
+3. Add the LoRA via the LoRA adapters panel
+4. Set LoRA scale to **1.0**
 5. Use `life_illustration` as trigger word in your prompts
+
+**Features**: LoRA support, ControlNet (Canny), image-to-image, Metal-accelerated on Apple Silicon.
 
 ---
 
