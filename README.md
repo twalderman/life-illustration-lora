@@ -10,7 +10,7 @@ A custom-trained LoRA that generates **Laerdal Life Illustration** style imagesâ
 # Using ZImageCLI (Mac)
 ZImageCLI \
   -p "life_illustration, healthcare worker standing in clinic" \
-  --lora life_design_zit_000002250.safetensors \
+  --lora life_illustration_zit_v2.safetensors \
   --lora-scale 1.0 \
   -s 9 -o output.png
 ```
@@ -111,8 +111,7 @@ Trained using [AI-Toolkit](https://github.com/ostris/ai-toolkit) on RunPod (A40 
 
 | File | Size | Description |
 |------|------|-------------|
-| `life_design_zit_000002250.safetensors` | 170 MB | **Recommended** - Step 2250 checkpoint |
-| `life_illustration_zit_v2.safetensors` | 340 MB | Full precision variant |
+| `life_illustration_zit_v2.safetensors` | 340 MB | **Recommended** - Full training run |
 | `samples/` | - | Example outputs |
 
 ---
