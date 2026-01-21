@@ -113,6 +113,70 @@ Trained using [AI-Toolkit](https://github.com/ostris/ai-toolkit) on RunPod (A40 
 
 ---
 
+## Train Your Own LoRA
+
+Want to train your own Z-Image-Turbo LoRA? Here's how using RunPod.
+
+### 1. Deploy RunPod Pod
+
+1. Go to [runpod.io/console/pods](https://runpod.io/console/pods)
+2. Click **+ Deploy**
+3. Search for template: **"AI Toolkit - ostris - ui - official"**
+4. Select GPU: **A40** or better (24GB+ VRAM)
+5. Container Disk: **100 GB**
+6. Click **Deploy** (~$0.43/hour for A40)
+
+### 2. Upload Training Data
+
+Once running, open **Web Terminal** and run:
+
+```bash
+mkdir -p /workspace/training_data
+```
+
+Upload your images (PNG) with matching caption files (.txt). Each caption should contain your trigger word.
+
+### 3. Access AI-Toolkit GUI
+
+Open: `https://<pod-id>-8675.proxy.runpod.net/`
+
+Default password: `password`
+
+### 4. Configure Training
+
+| Setting | Value |
+|---------|-------|
+| Model Architecture | **Z-Image Turbo (w/Training Adapter)** |
+| Quantization - Transformer | **NONE** |
+| Quantization - Text Encoder | **NONE** |
+| Trigger Word | Your trigger word |
+| LoRA Rank | 32 |
+| Steps | 3000 |
+| Timestep Type | Sigmoid |
+| Save dtype | fp32 |
+
+> **Critical**: Use the GUI, not CLI configs. The `is_zimage: true` CLI flag is broken.
+
+> **Critical**: Disable quantization—it causes soft/fuzzy output.
+
+### 5. Start Training
+
+Click **Start Training**. Monitor samples in the output folder. Training takes ~60-90 minutes on A40.
+
+### 6. Download & Stop Pod
+
+1. Go to pod **Storage** tab
+2. Download your `.safetensors` file from `/workspace/output/`
+3. **Stop the pod** to save costs
+
+### Cost Estimate
+
+- A40: ~$0.43/hour
+- Training: ~60-90 min
+- **Total: ~$0.65-1.00**
+
+---
+
 ## Files
 
 | File | Size | Description |
