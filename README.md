@@ -2,7 +2,7 @@
 
 A custom-trained LoRA that generates **Laerdal Life Illustration** style images—flat vector art with faceless characters used in medical and healthcare training materials.
 
-![Life Illustration Style](https://raw.githubusercontent.com/twalderman/life-illustration-lora/main/samples/example.png)
+
 
 ## Quick Start
 
