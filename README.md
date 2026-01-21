@@ -1,8 +1,10 @@
 # Life Illustration LoRA for Z-Image-Turbo
 
+![Life Illustration Style](header.png)
+
 A custom-trained LoRA that generates **Laerdal Life Illustration** style images—flat vector art with faceless characters used in medical and healthcare training materials.
 
-
+---
 
 ## Quick Start
 
